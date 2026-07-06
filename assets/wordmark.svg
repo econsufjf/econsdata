@@ -1,0 +1,11 @@
+<svg viewBox="0 0 380 80" xmlns="http://www.w3.org/2000/svg" role="img" width="380" height="80">
+  <title>EconsDados wordmark</title>
+  <rect width="380" height="80" fill="none"/>
+  <rect x="10" y="16" width="28" height="28" rx="2.5" fill="none" stroke="#c9a84c" stroke-width="3.5"/>
+  <rect x="22" y="26" width="28" height="28" rx="2.5" fill="none" stroke="#2a5fa8" stroke-width="3.5" opacity="0.55"/>
+  <rect x="36" y="37" width="12" height="12" rx="1" fill="none" stroke="#2a5fa8" stroke-width="2" opacity="0.35"/>
+  <text font-family="'DM Sans', Helvetica, Arial, sans-serif" font-size="30" letter-spacing="0.5" y="50">
+    <tspan x="62" font-weight="700" fill="#1e4a8a">Econs</tspan><tspan font-weight="400" fill="#c9a84c">Dados</tspan>
+  </text>
+  <text x="62" y="64" font-family="'DM Mono', 'Courier New', monospace" font-size="9.5" letter-spacing="2.2" fill="#5a6070">LABORATÓRIO DE ESTUDOS ECONÔMICOS · UFJF</text>
+</svg>
