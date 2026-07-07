@@ -15,11 +15,11 @@
 
 O **EconsDados** reúne bases de dados públicas utilizadas nas pesquisas do ECONS — Laboratório de Estudos Econômicos da UFJF. Para cada base você encontra:
 
-- **Guia de uso** — o que é a base, anos disponíveis e como interpretá-la corretamente
-- **Documentação da harmonização** — o que foi feito para compatibilizar os dados ao longo do tempo
-- **Rotinas de análise** — scripts em R e/ou Stata para operações comuns
+- **Documentação** — o que é a base, anos disponíveis e como interpretá-la corretamente
+- **Harmonização** — o que foi feito para compatibilizar os dados ao longo do tempo
+- **Principais variáveis** — dicionário resumido com as variáveis mais usadas
 
-Os dados brutos **não estão neste repositório** — são grandes demais para o GitHub. Os guias indicam onde baixá-los e como reproduzir o processamento.
+Os dados brutos **não estão neste repositório** — são grandes demais para o GitHub. Cada README indica onde baixá-los e como reproduzir o processamento.
 
 ---
 
@@ -27,24 +27,14 @@ Os dados brutos **não estão neste repositório** — são grandes demais para 
 
 ```
 econsdados/
+├── educacao/
+│   └── saeb/          ← Avaliação da Educação Básica (INEP)
 ├── saude/
-│   ├── sinasc/          ← Nascidos Vivos (DataSUS)
-│   └── sihsus/          ← Internações Hospitalares (DataSUS)
-├── mercado_de_trabalho/ ← em preparação
-│   ├── rais/
-│   └── caged/
-├── assets/
-│   └── wordmark.svg
-└── _template_base.md    ← modelo para documentar novas bases
+│   ├── sinasc/        ← Nascidos Vivos (DataSUS)
+│   └── sihsus/        ← Internações Hospitalares (DataSUS)
+└── assets/
+    └── wordmark.svg
 ```
-
----
-
-## Como usar
-
-Cada pasta de base contém um arquivo `guia_de_uso_da_base.md` com todas as informações necessárias para começar. Leia o guia antes de usar os dados.
-
-Para contribuir com documentação de uma nova base, use o `_template_base.md` como ponto de partida.
 
 ---
 
@@ -52,7 +42,8 @@ Para contribuir com documentação de uma nova base, use o `_template_base.md` c
 
 | Base | Tema | Anos harmonizados | Status |
 |---|---|---|---|
-| [SINASC](saude/sinasc/guia_de_uso_da_base.md) | Saúde | 1996–2024 | ✅ Disponível |
+| [SAEB](educacao/saeb/README.md) | Educação | 1995–2023 | ✅ Disponível |
+| [SINASC](saude/sinasc/README.md) | Saúde | 1996–2024 | ✅ Disponível |
 | SIHSUS | Saúde | — | 🔄 Em preparação |
 | RAIS | Mercado de trabalho | — | 🔄 Em preparação |
 | CAGED | Mercado de trabalho | — | 🔄 Em preparação |
