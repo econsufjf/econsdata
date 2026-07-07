@@ -124,6 +124,7 @@ Bases/
 > - Em 2019–2023, o arquivo `34EM` cobre 3ª e 4ª séries do EM; mantido como `"3EM"` no painel.
 > - `id_turno` disponível apenas em 2011–2017.
 > - Peso amostral único para LP e MT em 2011 (nas demais edições a partir de 2007 os pesos são disciplina-específicos).
+> - A partir de 2019 o SAEB passou a avaliar também o **2º ano do EF** (LP e MT). Essa série **não está incluída no painel harmonizado**, que cobre apenas as três séries com histórico desde 1995 (5EF, 9EF, 3EM).
 
 ---
 
